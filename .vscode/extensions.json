@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "mikestead.dotenv",
+        "qwtel.sqlite-viewer",
+        "prisma.prisma",
+        "prisma.prisma-insider"
+    ]
+}

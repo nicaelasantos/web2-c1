@@ -1,0 +1,36 @@
+{
+  "name": "projeto-dev-web-2",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecxpectro/projeto-dev-web-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ecxpectro/projeto-dev-web-2/issues"
+  },
+  "homepage": "https://github.com/Ecxpectro/projeto-dev-web-2#readme",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.6",
+    "prisma": "^5.12.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "asynckit": "^0.4.0",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "form-data": "^2.5.1",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "node-telegram-bot-api": "^0.65.1",
+    "undici-types": "^5.26.5"
+  },
+  "description": ""
+}

@@ -1,0 +1,18 @@
+// schema.prisma
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// Defina seus modelos de dados aqui
+model Mensagem {
+  id        Int      @id @default(autoincrement())
+  texto     String
+  createdAt DateTime @default(now())
+}
+
+// Defina o gerador para o Prisma Client
+generator client {
+  provider = "prisma-client-js"
+}
